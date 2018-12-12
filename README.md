@@ -1,6 +1,9 @@
 # pwnmap
 
 This is a very basic script that runs nmap using the default ports and then uses ndiff to compare the results.
+
+This script *should* be configured to run daily via cron or another task scheduler
+
 Used in "Red Team Recon" -- Sample code taken from The Hacker Playbook 3
 
 ## TO-DO
