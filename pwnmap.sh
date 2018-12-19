@@ -2,7 +2,7 @@
 
 mkdir /opt/nmap_diff
 d=$(date +%Y-%m-%d)
-y=$(date -d yesterday +%Y-%m-%d)
+y=$(date -v-1d +%Y-%m-%d)
 NMAP_OPTIONS="-v -T4 -sV -oX"
 NMAP_OUTPUT=/opt/nmap_diff/scan_$d.xml
 NMAP_TARGET="10.10.10.0/24"
